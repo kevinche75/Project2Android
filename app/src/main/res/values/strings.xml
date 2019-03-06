@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">NewActivity</string>
+    <string name="action_settings">Настройки</string>
+    <string name="action_research">Поиск</string>
+    <string name="action_exit">Выход</string>
+    <string name="google">Google</string>
+    <string name="yandex">Яндекс</string>
+    <string name="bing">Bing</string>
+    <string name="hello_load">Hello</string>
+    <string name="resaerchtext">Введите текст</string>
+    <string name="researchbutton">Поиск</string>
+</resources>

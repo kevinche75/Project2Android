@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/fragment_settings"
+    android:background="@drawable/gradient"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/radios"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/google"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#fefdfd"
+            android:text="@string/google" />
+
+        <RadioButton
+            android:id="@+id/yandex"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#fefdfd"
+            android:text="@string/yandex" />
+
+        <RadioButton
+            android:id="@+id/bing"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#fefdfd"
+            android:text="@string/bing" />
+    </RadioGroup>
+
+</LinearLayout>
